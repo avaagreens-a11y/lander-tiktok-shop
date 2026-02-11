@@ -1,13 +1,13 @@
 // Recent claims data
 const recentClaims = [
-    { name: "Sarah M.", location: "Los Angeles, CA", amount: "$750" },
-    { name: "Michael R.", location: "New York, NY", amount: "$750" },
-    { name: "Jessica L.", location: "Miami, FL", amount: "$750" },
-    { name: "David K.", location: "Chicago, IL", amount: "$750" },
-    { name: "Emily T.", location: "Austin, TX", amount: "$750" },
-    { name: "James P.", location: "Seattle, WA", amount: "$750" },
-    { name: "Ashley B.", location: "Boston, MA", amount: "$750" },
-    { name: "Ryan K.", location: "Denver, CO", amount: "$750" }
+    { name: "Sarah M.", location: "Manchester, GM", amount: "£750" },
+    { name: "Michael R.", location: "Oxford, OXF", amount: "£750" },
+    { name: "Jessica L.", location: "Liverpool, MSY", amount: "£750" },
+    { name: "David K.", location: "Bristol, BSL", amount: "£750" },
+    { name: "Emily T.", location: "Brighton, ESX", amount: "£750" },
+    { name: "James P.", location: "Cambridge, CAM", amount: "£750" },
+    { name: "Ashley B.", location: "Bristol, BSL", amount: "£750" },
+    { name: "Ryan K.", location: "Oxford, OXF", amount: "£750" }
 ];
 
 let currentClaimIndex = 0;

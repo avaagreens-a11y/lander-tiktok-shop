@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Shop - Valentine's Credits Program</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <!-- Header with Logo -->
+        <header class="header">
+            <img src="https://freepnglogo.com/images/all_img/1714299055tiktok-shop-logo-png.png" alt="TikTok Shop" class="logo">
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Verified Badge -->
+            <div class="verified-badge">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#2E7D32"/>
+                </svg>
+                <span>Verified by TikTok</span>
+            </div>
+
+            <!-- Hero Section -->
+            <section class="hero">
+                <!-- Limited Time Badge -->
+                <div class="limited-time-badge">
+                    💝 VALENTINE'S DAY SPECIAL
+                </div>
+
+                <h1 class="hero-title">
+                    TikTok Shop<br><span style="color: #FE2C55;">$750</span> Credits<br>Program<br>
+                </h1>
+
+                <p class="hero-description">
+                    Limited spots available!
+                </p>
+
+                <!-- Main CTA -->
+                <button class="cta-button main-cta" onclick="handleClaimClick()">
+                    Claim $750 Credits Now
+                </button>
+
+                <!-- Trust Indicator -->
+                <div class="trust-indicator">
+                    <div class="trust-dot"></div>
+                    <span class="trust-text">2,847 claimed today</span>
+                </div>
+            </section>
+
+            
+            <!-- How It Works -->
+            <section class="how-it-works">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">Four simple steps to claim your credits</p>
+
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Click the claim button</h3>
+                            <p>Start your journey by clicking the button below</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Enter Email and required info</h3>
+                            <p>Provide your details to verify eligibility</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Complete at least 3-4 provided tasks</h3>
+                            <p>Quick and easy tasks to unlock your credits</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number success">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="step-content">
+                            <h3>Claim your TikTok Shop credits and enjoy</h3>
+                            <p>Start shopping with your $750 credits instantly</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Second CTA -->
+            <section class="second-cta">
+                <button class="cta-button" onclick="handleClaimClick()">
+                    Claim $750 Credits Now
+                </button>
+            </section>
+
+            <!-- Live Claims Ticker -->
+            <div class="live-ticker">
+                <div class="live-indicator">
+                    <div class="live-dot"></div>
+                    <span>LIVE</span>
+                </div>
+                <div class="live-text" id="liveText">
+                    Sarah M. from Los Angeles, CA just claimed $750!
+                </div>
+            </div>
+
+            <!-- Testimonials -->
+            <section class="testimonials">
+                <h2 class="section-title">What People Are Saying</h2>
+
+                <div class="testimonial">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <p>"I was skeptical at first, but I actually received my credits! Used them to buy gifts for Valentine's Day. Super easy process."</p>
+                    <div class="testimonial-author">
+                        <strong>Jennifer M.</strong><br>
+                        <span>Verified User</span>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <p>"Took me less than 10 minutes to complete. Already spent my credits on the cutest items. Best Valentine's surprise!"</p>
+                    <div class="testimonial-author">
+                        <strong>Marcus T.</strong><br>
+                        <span>Verified User</span>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <p>"Legit program! The tasks were simple and the credits showed up right away. Highly recommend to everyone!"</p>
+                    <div class="testimonial-author">
+                        <strong>Amanda K.</strong><br>
+                        <span>Verified User</span>
+                    </div>
+                </div>
+            </section>
+
+            
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-content">
+                    <img src="https://freepnglogo.com/images/all_img/1714299055tiktok-shop-logo-png.png" alt="TikTok Shop" class="footer-logo">
+                    <p class="footer-description">Valentine's Day Credits Program 2026</p>
+                    
+                    <div class="footer-links">
+                        <div class="link-row">
+                            <a href="#">About</a>
+                            <a href="#">Terms</a>
+                            <a href="#">Privacy</a>
+                            <a href="#">Support</a>
+                        </div>
+                        <div class="link-row">
+                            <a href="#">FAQ</a>
+                            <a href="#">Contact</a>
+                            <a href="#">Guidelines</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-disclaimer">
+                        <p>This is a limited-time promotional program. Credits are valid for 90 days from the date of claim. Standard terms and conditions apply.</p>
+                    </div>
+
+                    <div class="footer-copyright">
+                        <p> 2026 TikTok Shop. All rights reserved.</p>
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+        <!-- Sticky Button and Ticker -->
+        <div class="sticky-container">
+            <div class="sticky-ticker">
+                <div class="live-indicator">
+                    <div class="live-dot"></div>
+                    <span>LIVE</span>
+                </div>
+                <div class="live-text" id="stickyLiveText">
+                    Sarah M. from Los Angeles, CA just claimed $750!
+                </div>
+            </div>
+            <div class="sticky-button">
+                <button class="cta-button" onclick="handleClaimClick()">
+                    Claim $750 Credits Now
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
